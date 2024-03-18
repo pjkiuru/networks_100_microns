@@ -35,7 +35,7 @@ rcParams['legend.handlelength'] = 1.0
 subtpos = [0.01,1.05]
 subtpos_porosity_t = [0.01,1.03]
 subtpos_porosity_b = [0.01,1.06]
-subt = ['(a)', '(b)', '(c)', '(d)','(e)','(f)']
+subt = ['(a) 1A', '(b) 3A', '(c) 5A', '(d) 7A','(e)','(f)']
 
 colors = list([(0,0,0), (230/255,159/255,0), (86/255,180/255,233/255),
            (0,158/255,115/255), (240/255,228/255,66/255),
@@ -46,7 +46,7 @@ lw = 0.75
 
 draw_porosity_profile_image = True
 
-draw_cross_section_image = True
+draw_cross_section_image = False
 
 both_in_same = True
 
